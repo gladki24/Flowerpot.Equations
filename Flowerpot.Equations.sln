@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowerpot.Equations.View", "Flowerpot.Equations.View\Flowerpot.Equations.View.csproj", "{A6114C54-CB7E-47F2-9772-B7EB62D83434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowerpot.Equations.Domain", "Flowerpot.Equations.Domain\Flowerpot.Equations.Domain.csproj", "{59F6FB09-D202-4335-B216-E0F55DE9174F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flowerpot.Equations.Domain", "Flowerpot.Equations.Domain\Flowerpot.Equations.Domain.csproj", "{59F6FB09-D202-4335-B216-E0F55DE9174F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowerpot.Equations.Domain.UnitTests", "Flowerpot.Equations.Domain.UnitTests\Flowerpot.Equations.Domain.UnitTests.csproj", "{E7AC179A-A87D-420C-AC08-3B4B0E3709B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flowerpot.Equations.Domain.UnitTests", "Flowerpot.Equations.Domain.UnitTests\Flowerpot.Equations.Domain.UnitTests.csproj", "{E7AC179A-A87D-420C-AC08-3B4B0E3709B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowerpot.Equations.Infrastructure", "Flowerpot.Equations.Infrastructure\Flowerpot.Equations.Infrastructure.csproj", "{1A83EB6F-67F0-47EF-8742-FDED2BB54847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flowerpot.Equations.Infrastructure", "Flowerpot.Equations.Infrastructure\Flowerpot.Equations.Infrastructure.csproj", "{1A83EB6F-67F0-47EF-8742-FDED2BB54847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowerpot.Equations.Application", "Flowerpot.Equations.Application\Flowerpot.Equations.Application.csproj", "{5810569C-5896-43EC-B8A3-7158924ABBD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1A83EB6F-67F0-47EF-8742-FDED2BB54847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A83EB6F-67F0-47EF-8742-FDED2BB54847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A83EB6F-67F0-47EF-8742-FDED2BB54847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5810569C-5896-43EC-B8A3-7158924ABBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5810569C-5896-43EC-B8A3-7158924ABBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5810569C-5896-43EC-B8A3-7158924ABBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5810569C-5896-43EC-B8A3-7158924ABBD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
