@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Flowerpot.Equations.Domain\Flowerpot.Equations.Domain.csproj">
+      <Project>{59f6fb09-d202-4335-b216-e0f55de9174f}</Project>
+      <Name>Flowerpot.Equations.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
